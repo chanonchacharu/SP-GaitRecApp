@@ -56,7 +56,10 @@ The CNNTransformerClassifier (TransformerCNN) is a hybrid neural network that co
 
 
 ### Prediction Process
-The prediction process begins by loading three different models. Input images undergo a common transformation using PyTorch's torchvision.transforms.Compose. The transformed images are then concatenated and converted into a PyTorch tensor. Each model is set to evaluation mode, and the tensor is passed through each model. The model outputs are converted into probabilities using softmax, and the top three probabilities and corresponding class indices are obtained. The user IDs associated with the top three indices are retrieved and returned. It includes functions for visualizing the predictions, with an initial visualization using Matplotlib for the first model and an improved version displaying multiple silhouettes for each user ID. The script is executed with specific image paths, and the results, including top probabilities, class indices, and user IDs, are printed. 
+The prediction process begins by loading three different models. Input images undergo a common transformation using PyTorch's torchvision.transforms.Compose. The transformed images are then concatenated and converted into a PyTorch tensor. Each model is set to evaluation mode, and the tensor is passed through each model. The model outputs are converted into probabilities using softmax, and the top three probabilities and corresponding class indices are obtained. The user IDs associated with the top three indices are retrieved and returned. It includes functions for visualizing the predictions, with an initial visualization using Matplotlib for the first model and an improved version displaying multiple silhouettes for each user ID. The script is executed with specific image paths, and the results, including top probabilities, class indices, and user IDs, are printed. Here is the final result from the testing process:
+<div align="center">
+    <img src="resource_gait/images/16.png" style="height: 500px; width: auto;">
+</div>
 
 ---
 
