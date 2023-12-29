@@ -82,3 +82,5 @@ The prediction process begins by loading three different models. Input images un
       The result is ranked from the highest probability to the lowest among the top three probabilities.
     </p>
 </div>
+
+## Thank you!
